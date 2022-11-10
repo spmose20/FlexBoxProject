@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+#Links {
+  margin-left:auto;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+.L:hover {
+  color:black;
+  background-color: white;
+}
+.L {
+  color:white;
+  display: flex;
+  justify-content: right;
+  width: 100px;
+  height: 50px;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+#N {
+    width: 100px;
+    height: 65px;
+    background-color: green;
+    padding-top: 25px;
+    padding-left: 30px;
+}

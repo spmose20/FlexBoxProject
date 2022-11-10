@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+#Links {
+  margin-left:auto;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+.L:hover {
+  color:black;
+  background-color: white;
+}
+.L {
+  color:white;
+  display: flex;
+  justify-content: right;
+  width: 100px;
+  height: 50px;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+#N {
+    width: 100px;
+    height: 65px;
+    background-color: green;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+#box1 {
+  display: flex;
+  flex-direction:row;
+}
+#Rpanels {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  margin-left: auto;
+  width: 40%;
+  border: 5px solid black;
+  margin: 15px;
+  padding-top: 15px;
+  padding-left: 30px;
+
+}
+
+#Lpanels {
+  display: flex;
+  flex-direction:column;
+  justify-content: left;
+  padding-top: 15px;
+  padding-left: 30px;
+  width: 60%;
+
+}
+
+.panels {
+  padding: 20px;
+  border: 5px solid black;
+  margin-bottom: 10px;
+}
+
+#B1 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.BB1 {
+  color:white;
+  display: flex;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  padding: 10px;
+}
+#B2 {
+  display:flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.BB2 {
+  color:white;
+  display: flex;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  padding: 10px;
+  margin-right:25px;
+  margin-left:25px;
+}
+#B3 {
+  display:flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.BB3 {
+  color:white;
+  display: flex;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  padding: 10px;
+  margin-right:25px;
+  margin-left:25px;
+}

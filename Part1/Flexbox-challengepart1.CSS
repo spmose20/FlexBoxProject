@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+}
+Nav {
+
+}
+
+
+#Lpanels {
+  display: flex;
+  flex-direction:row;
+  justify-content: right;
+
+  height: 600px;
+  border: 110px solid black;
+
+  .panels {
+
+  }
+}
